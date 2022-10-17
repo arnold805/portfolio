@@ -11,3 +11,6 @@ services:
       - './src:/app/src'
     ports:
       - 8050:3000
+    environment:
+      HOST: "${HOST}"
+
