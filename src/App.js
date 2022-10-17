@@ -1,14 +1,11 @@
 import "./App.css";
 import Avatar from '@mui/material/Avatar';
 
-import Stack from '@mui/material/Stack';
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       <Avatar alt="Greg Arnold" src="img/profile_pic.jpg" sx={{ width: 130, height: 130}} />
-        <img />
         <p>
           <a
             className="App-link"
