@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Avatar alt="Greg Arnold" src="http://localhost:3001/img/profile_pic.jpg" sx={{ width: 130, height: 130}} />
+      <Avatar alt="Greg Arnold" src="img/profile_pic.jpg" sx={{ width: 130, height: 130}} />
         <img />
         <p>
           <a
