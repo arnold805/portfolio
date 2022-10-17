@@ -2,7 +2,7 @@
 
 CURRENT_DIR=$PWD
 export INFRASTRUCTURE_PROJECT=../project_infrastructure
-export PLAYBOOK_NAME=deploy-portfolio
+export PLAYBOOK_NAME=deploy-latest-portfolio
 
 cd $INFRASTRUCTURE_PROJECT
 
