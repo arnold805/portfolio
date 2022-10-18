@@ -36,7 +36,6 @@ function App() {
             SoundCloud
           </a>
         </p>
-        <p>Sponsor Me</p>
       </header>
     </div>
   );
