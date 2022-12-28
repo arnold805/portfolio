@@ -34,7 +34,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            &nbsp; V-for-Vehicle &nbsp;
+            V-for-Vehicle
           </a>
         </p>
         <p>
@@ -44,7 +44,9 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            &nbsp; Linkedin &nbsp;
+            {/* jsx space method */}
+            {/* &nbsp; Linkedin &nbsp; */}
+            Linkedin
           </a>
         </p>
         <p>
@@ -54,7 +56,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            &nbsp; Github &nbsp;
+            Github
           </a>
         </p>
         <p>
@@ -64,7 +66,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            &nbsp; SoundCloud &nbsp;
+            SoundCloud
           </a>
         </p>
       </header>

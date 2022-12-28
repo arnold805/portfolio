@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  background: url(background.JPG);
+  background-size: cover;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -9,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,8 +24,6 @@
   font-size: calc(12px + 2vmin);
 }
 
-
-
 @keyframes App-link-spin {
   from {
     transform: rotate(0deg);
@@ -27,4 +31,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-link {
+  color: #b14f0a;
+  width: 200em;
+  height: 100ex;
+  padding: 0.7ex;
+  background-color: #254ea1;
+  border-radius: 12px;
+  font-weight: initial;
+  /* font-size: 35px; */
+  color: black;
+  cursor: pointer;
+
+  text-decoration: none;
+}
+a:hover {
+  background-color: rgb(43, 18, 171);
+  background-color: #282c34;
+  animation-name: link_animation;
+  animation-duration: 1.7s;
+  animation-fill-mode: forwards;
+}
+a {
+  background-color: rgb(43, 18, 171);
+  background-color: #282c34;
+  animation-name: link_animation_reverse;
+  animation-duration: 1.7s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes link_animation {
+from {background-color: #254ea1;
+  transform: translateX(0%);}
+to {background-color: rgb(211, 71, 10);
+transform: translateX(100%);}
+}
+
+@keyframes link_animation_reverse {
+from {background-color: rgb(211, 71, 10);
+  transform: translateX(0%);}
+to {background-color: #254ea1;
+transform: translateX(100%);}
 }
