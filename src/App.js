@@ -1,10 +1,31 @@
 import "./App.css";
+import React from "react";
+// import ReactMapGL from 'react-map-gl';
 import Avatar from '@mui/material/Avatar';
 
 function App() {
+
+  // for MapGL
+
+  // const [viewport, setViewport] = useState({
+  //   latitude: 40.48960915490233,
+  //   longitude: -81.44556781445908,
+  //   width: '100vw',
+  //   height: '100vh',
+  //   zoom: 10
+  // })
+
   return (
     <div className="App">
       <header className="App-header">
+
+      {/* <ReactMapGL
+        {...viewport}
+        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+        >
+          markers here
+      </ReactMapGL> */}
+
       <Avatar alt="Greg Arnold" src="img/profile_pic.jpg" sx={{ width: 130, height: 130}} />
         <p>
           <a
@@ -13,7 +34,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            V-for-Vehicle
+            &nbsp; V-for-Vehicle &nbsp;
           </a>
         </p>
         <p>
@@ -23,7 +44,17 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Linkedin
+            &nbsp; Linkedin &nbsp;
+          </a>
+        </p>
+        <p>
+          <a
+            className="App-link"
+            href="https://github.com/arnold805"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            &nbsp; Github &nbsp;
           </a>
         </p>
         <p>
@@ -33,7 +64,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            SoundCloud
+            &nbsp; SoundCloud &nbsp;
           </a>
         </p>
       </header>
